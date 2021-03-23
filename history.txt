@@ -1,0 +1,127 @@
+    1  mkdir Umuzi_Bootcamp
+    2  cd Umuzi_Bootcamp
+    3  mkdir git-basic-exercises
+    4  cd git-basic-exercises
+    5  ls -a
+    6  git init
+    7  git status
+    8  touch README.md
+    9  ls -a
+   10  git add README.md
+   11  git status
+   12  git commit -m "initital commit"
+   13  git log
+   14  nano README.md
+   15  cat README.md
+   16  git status
+   17  git add README.md
+   18  git commit -m "second commit"
+   19  nano README.md
+   20  cat README.md
+   21  git commit -m "third commit"
+   22  git log
+   23  cat README.md
+   24  git add README.md
+   25  git commit -m "third commit"
+   26  git log
+   27  git checkout commit ae1b1dbdf01c0914899db0b4f29413655e997ecd
+   28  git checkout ae1b1dbdf01c0914899db0b4f29413655e997ecd
+   29  cat README.md
+   30  checkout main
+   31  checkout master
+   32  git checkout main
+   33  git checkout master
+   34  cat README.md
+   35  git branch
+   36  git branch milkshake-flavours
+   37  git branch
+   38  git branch master
+   39  git checkout master
+   40  git checkout milkshake-flavours
+   41  git branch
+   42  nano milkshakes.md
+   43  git status
+   44  git add milkshakes.md
+   45  git commit -m "added initial flavours"
+   46  git log
+   47  git checkout master
+   48  git log
+   49  git branch history
+   50  git checkout history
+   51  git checkout history
+   52  git log
+   53  git branch
+   54  history > history.txt
+   55  cat history.txt
+   56  git add history.txt
+   57  git commit -m "added history"
+   58  git log
+   59  git checkout milkshake-flavours
+   60  git log
+   61  nano README.md
+   62  git commit -m "random readme changes"
+   63  git add README.md
+   64  git commit -m "random readme changes"
+   65  git log
+   66  git checkout history
+   67  cat README.md
+   68  rm README.md
+   69  echo "booya" > README.md
+   70  git checkout master
+   71  ls
+   72  git log
+   73  git checkout milkshake-flavours
+   74  git checkout master
+   75  ls
+   76  git log
+   77  git checkout milkshake-flavours
+   78  cat README.md
+   79   git commit README.md
+   80  mkdir Umuzi_Bootcamp
+   81  cd Umuzi_Bootcamp
+   82  mkdir git-basic-exercises
+   83  cd git-basic-exercises
+   84  ls -a
+   85  git init
+   86  ls -a
+   87  git status
+   88  touch README.md
+   89  ls -a
+   90  git status
+   91  git log
+   92  git log
+   93  git add README.md
+   94  git commit -m "initial commit"
+   95  git log
+   96  nano README.md
+   97  cat README.md
+   98  git status
+   99  git add README.md
+  100  git commit -m "second commit"
+  101  nano README.md
+  102  git add README.md
+  103  git commit -m "third commt"
+  104  git log
+  105  git checkout e8fb4e08e5751bf7e2fce2bc490cf23ddf843096
+  106  cat README.md
+  107  git checkout master
+  108  cat README.md
+  109  git branch milkshake-flavours
+  110  git branch
+  111  git checkout mikshake-flavours
+  112  git checkout milkshake-flavours
+  113  git branch
+  114  nano milkshakes.md
+  115  git status
+  116  git add milkshakes.md
+  117  git commit -m "added initial flavours"
+  118  git log
+  119  git checkout master
+  120  git log
+  121  git branch history
+  122  git log
+  123  git branch
+  124  git checkout history
+  125  git log
+  126  git branch
+  127  history > history.txt
